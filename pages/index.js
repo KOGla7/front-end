@@ -1,6 +1,6 @@
 import Body from "@/components/Body";
 import Header from "@/components/Header";
-import Foot from "./components/Foot";
+import Foot from "@/components/Foot";
 
 
 

@@ -13,7 +13,7 @@ const Header = () => {
         <h1 className="text-2xl font-bold text-blue-600">IHI</h1>
         <div>
       
-          <button className="mr-4" onClick={() => router.push("/login")}>
+          <button className="mr-4 text-gray-600" onClick={() => router.push("/Login")}>
             Login
           </button>
           <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
@@ -23,7 +23,7 @@ const Header = () => {
       </div>
 
       <section className="flex flex-col items-center text-center py-20 px-4">
-        <h2 className="text-4xl font-bold mb-4">The best study resources</h2>
+        <h2 className="text-4xl font-bold mb-4 text-blue-600">The best study resources</h2>
         <p className="text-gray-600 max-w-2xl">
           Save time by focusing on what matters. Study class notes and textbook summaries written by fellow students to quickly understand the essentials.
         </p>

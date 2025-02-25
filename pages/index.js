@@ -1,7 +1,7 @@
 import Body from "@/components/Body";
 import Header from "@/components/Header";
 import Foot from "@/components/Foot";
-
+import Foot from "@/components/Footer";
 
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <Body />
       <Foot />
-
+      <Footer/>
     </div>
   );
 }

@@ -1,19 +1,18 @@
 import Head from "next/head";
 import { useState } from "react";
-import { useRouter } from "next/router"; // 🛠 useRouter-ийг импортлох
+import { useRouter } from "next/router"; 
 import React from "react";
 
 const Header = () => {
   const [search, setSearch] = useState("");
-  const router = useRouter(); // 🛠 Router ашиглах
-
+  const router = useRouter(); 
   return (
     <div className="h-2/3 w-full bg-gray-100 bg-cover bg-center">
       <div className="bg-white shadow-md p-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-600">IHI</h1>
         <div>
       
-          <button className="mr-4 text-gray-600" onClick={() => router.push("/Login")}>
+          <button className="mr-4 text-gray-600" onClick={() => router.push("components/Login")}>
             Login
           </button>
           <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">

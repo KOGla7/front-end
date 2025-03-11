@@ -39,7 +39,7 @@ const Login = () => {
               No profile yet? <a href="#" className="text-blue-600">Sign up Now, it’s Free!</a>
             </p>
             <p className="text-sm mt-2">
-              <a href="#" className="text-blue-600">Forgot Password</a>
+              <button href="#" className="text-blue-600">Forgot Password</button>
             </p>
           </div>
         </div>

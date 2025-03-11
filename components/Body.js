@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link"; // 🛠 Next.js-ийн Link ашиглах
-
 const Body = () => {
   return (
     <div className="w-full  bg-gray-100">

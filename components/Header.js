@@ -12,7 +12,7 @@ const Header = () => {
         <h1 className="text-2xl font-bold text-blue-600">IHI</h1>
         <div>
       
-          <button className="mr-4 text-gray-600" onClick={() => router.push("components/Login")}>
+          <button className="mr-4 text-gray-600" onClick={() => router.push("/Login")}>
             Login
           </button>
           <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">

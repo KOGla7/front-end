@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
+
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="w-96 p-6 bg-white shadow-xl rounded-lg">

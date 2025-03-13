@@ -8,21 +8,21 @@ const Body = () => {
           <p className="text-gray-600 mt-2">
             Find summaries, practice questions, and study documents for all subjects.
           </p>
-          <Link href="/subjects" className="text-blue-600 mt-2 inline-block">Find my subject →</Link>
+          <div href="/subjects" className="text-blue-600 mt-2 inline-block">Find my subject →</div>
         </div>
         <div className="bg-white shadow-md p-6 rounded-lg text-center">
           <h3 className="text-xl font-bold text-gray-600">Textbooks</h3>
           <p className="text-gray-600 mt-2">
             Search for study books and find the best summaries and practice exams.
           </p>
-          <Link href="/textbooks" className="text-blue-600 mt-2 inline-block">Find textbooks →</Link>
+          <div href="/textbooks" className="text-blue-600 mt-2 inline-block">Find textbooks →</div>
         </div>
         <div className="bg-white shadow-md p-6 rounded-lg text-center">
           <h3 className="text-xl font-bold text-gray-600">Qualifications</h3>
           <p className="text-gray-600 mt-2">
             Find summaries for specific qualifications to make studying easier.
           </p>
-          <Link href="/qualifications" className="text-blue-600 mt-2 inline-block">Notes and summaries →</Link>
+          <div href="/qualifications" className="text-blue-600 mt-2 inline-block">Notes and summaries →</div>
         </div>
       </div>
 
